@@ -88,7 +88,7 @@ const Index = () => {
               <img 
                 src="/lovable-uploads/2ee2418b-deac-403d-9fc9-36a3b548542d.png" 
                 alt="Zæňe Avatar" 
-                className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500"
+                className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500"
               />
             </div>
             <h1 className="text-7xl md:text-9xl font-display font-black mb-6 bg-gradient-text bg-clip-text text-transparent animate-pulse-glow leading-tight">
