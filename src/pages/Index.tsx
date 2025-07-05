@@ -241,34 +241,41 @@ const Index = () => {
           </h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-gradient-card backdrop-blur-xl border-primary/20 hover:shadow-intense transition-all duration-500 hover:scale-110 hover:-translate-y-4 animate-slide-up group">
-              <CardContent className="p-8 text-center">
-                <div className="relative mb-6">
-                  <MessageCircle className="w-16 h-16 mx-auto text-primary group-hover:text-accent transition-colors duration-300" />
-                  <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <h3 className="text-2xl font-display font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Telegram</h3>
-                <p className="text-muted-foreground text-lg font-medium">@OneZane</p>
-              </CardContent>
-            </Card>
+            <a 
+              href="https://t.me/OneZane" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <Card className="bg-gradient-card backdrop-blur-xl border-primary/20 hover:shadow-intense transition-all duration-500 hover:scale-110 hover:-translate-y-4 animate-slide-up group cursor-pointer">
+                <CardContent className="p-8 text-center">
+                  <div className="relative mb-6">
+                    <MessageCircle className="w-16 h-16 mx-auto text-primary group-hover:text-accent transition-colors duration-300" />
+                    <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                  <h3 className="text-2xl font-display font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">Telegram</h3>
+                  <p className="text-muted-foreground text-lg font-medium">@OneZane</p>
+                </CardContent>
+              </Card>
+            </a>
 
-            <Card className="bg-gradient-card backdrop-blur-xl border-primary/20 hover:shadow-intense transition-all duration-500 hover:scale-110 hover:-translate-y-4 animate-slide-up group" style={{ animationDelay: '0.1s' }}>
-              <CardContent className="p-8 text-center">
-                <div className="relative mb-6">
-                  <Twitter className="w-16 h-16 mx-auto text-primary group-hover:text-accent transition-colors duration-300" />
-                  <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <h3 className="text-2xl font-display font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">X (Twitter)</h3>
-                <a 
-                  href="https://x.com/ZibsMetax" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-accent hover:text-primary transition-colors text-lg font-medium hover:underline"
-                >
-                  @ZibsMetax
-                </a>
-              </CardContent>
-            </Card>
+            <a 
+              href="https://x.com/ZibsMetax" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <Card className="bg-gradient-card backdrop-blur-xl border-primary/20 hover:shadow-intense transition-all duration-500 hover:scale-110 hover:-translate-y-4 animate-slide-up group cursor-pointer" style={{ animationDelay: '0.1s' }}>
+                <CardContent className="p-8 text-center">
+                  <div className="relative mb-6">
+                    <Twitter className="w-16 h-16 mx-auto text-primary group-hover:text-accent transition-colors duration-300" />
+                    <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                  </div>
+                  <h3 className="text-2xl font-display font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">X (Twitter)</h3>
+                  <p className="text-accent hover:text-primary transition-colors text-lg font-medium">@ZibsMetax</p>
+                </CardContent>
+              </Card>
+            </a>
 
             <Card className="bg-gradient-card backdrop-blur-xl border-primary/20 hover:shadow-intense transition-all duration-500 hover:scale-110 hover:-translate-y-4 animate-slide-up group" style={{ animationDelay: '0.2s' }}>
               <CardContent className="p-8 text-center">
