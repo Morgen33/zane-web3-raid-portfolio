@@ -127,7 +127,7 @@ const Index = () => {
 
           <Button 
             size="lg" 
-            className="mt-12 bg-gradient-accent hover:shadow-intense transition-all duration-500 text-xl px-12 py-6 font-display font-semibold animate-slide-up transform hover:scale-105"
+            className="mt-12 mb-20 bg-gradient-accent hover:shadow-intense transition-all duration-500 text-xl px-12 py-6 font-display font-semibold animate-slide-up transform hover:scale-105"
             style={{ animationDelay: '1.2s' }}
             onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
           >
