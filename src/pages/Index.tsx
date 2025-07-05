@@ -84,7 +84,7 @@ const Index = () => {
         
         <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
           <div className="mb-12">
-            <div className="mb-8 animate-slide-up">
+            <div className="mt-16 mb-8 animate-slide-up">
               <img 
                 src="/lovable-uploads/2ee2418b-deac-403d-9fc9-36a3b548542d.png" 
                 alt="Zæňe Avatar" 
