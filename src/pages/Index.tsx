@@ -85,7 +85,7 @@ const Index = () => {
         <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
           <div className="mb-12">
             <h1 className="text-7xl md:text-9xl font-display font-black mb-6 bg-gradient-text bg-clip-text text-transparent animate-pulse-glow leading-tight">
-              Hey 👋 am Zæňe
+              Zæňe
             </h1>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               <Badge variant="secondary" className="text-xl px-6 py-3 bg-gradient-card backdrop-blur-md border-primary/20 hover:shadow-glow transition-all duration-300 animate-slide-up" style={{ animationDelay: '0.2s' }}>
