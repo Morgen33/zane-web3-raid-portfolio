@@ -217,35 +217,17 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 px-4 relative">
-        <div className="absolute inset-0 bg-gradient-hero opacity-80"></div>
-        <div className="max-w-5xl mx-auto text-center relative z-10">
-          <div className="bg-gradient-card backdrop-blur-2xl p-16 rounded-3xl shadow-intense border border-primary/20 animate-fade-in">
-            <h2 className="text-5xl md:text-6xl font-display font-black mb-8 bg-gradient-text bg-clip-text text-transparent">
-              Time to Work
-            </h2>
-            <p className="text-2xl md:text-3xl mb-12 text-muted-foreground font-light">
-              Ready to elevate your <span className="text-primary font-semibold">Web3 community</span>? Let's collaborate!
-            </p>
-            <Button 
-              size="lg" 
-              className="bg-gradient-accent hover:shadow-intense transition-all duration-500 text-xl px-12 py-6 mb-8 font-display font-semibold hover:scale-110 animate-pulse-glow"
-            >
-              <MessageCircle className="w-6 h-6 mr-3" />
-              DM 📥 to hire Me
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Contact Section */}
       <section className="py-24 px-4 bg-gradient-primary/30 backdrop-blur-xl relative">
         <div className="absolute inset-0 bg-gradient-animated opacity-5 animate-gradient-shift bg-300%"></div>
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-5xl md:text-6xl font-display font-black text-center mb-16 bg-gradient-text bg-clip-text text-transparent animate-fade-in">
+          <h2 className="text-5xl md:text-6xl font-display font-black text-center mb-8 bg-gradient-text bg-clip-text text-transparent animate-fade-in">
             Zæňe Socials
           </h2>
+          
+          <p className="text-2xl md:text-3xl text-center mb-16 text-muted-foreground font-light animate-slide-up">
+            Ready to elevate your <span className="text-primary font-semibold">Web3 community</span>? Let's collaborate. Contact me here
+          </p>
           
           <div className="grid md:grid-cols-3 gap-8">
             <a 
