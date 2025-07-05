@@ -222,7 +222,7 @@ const Index = () => {
                 <Twitter className="w-12 h-12 mx-auto mb-4 text-primary" />
                 <h3 className="text-xl font-semibold mb-2">X (Twitter)</h3>
                 <a 
-                  href="http://x.com/ZibsMetax" 
+                  href="https://x.com/ZibsMetax" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-accent hover:text-primary transition-colors"
