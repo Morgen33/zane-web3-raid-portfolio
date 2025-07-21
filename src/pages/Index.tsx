@@ -15,7 +15,7 @@ const Index = () => {
 
   const experiences = [
     {
-      company: "$BOINK",
+      company: "@Boinkonbonk",
       token: "$BOINK",
       role: "Social Media & Community Coordinator",
       achievement: "Supported Boinks Web3 project's grassroots growth by managing Telegram-based community engagement, creating meme content for viral marketing, coordinating raid and shill activities, and helping establish connections with other blockchain communities. My work contributed to user acquisition, brand awareness, and ecosystem expansion.",
