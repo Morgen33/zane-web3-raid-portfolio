@@ -86,7 +86,7 @@ const Index = () => {
           <div className="mb-12">
             <div className="mt-16 mb-8 animate-slide-up">
               <img 
-                src="/lovable-uploads/2ee2418b-deac-403d-9fc9-36a3b548542d.png" 
+                src="/lovable-uploads/4957b470-a480-4c82-8f5d-d91d43ea321c.png" 
                 alt="Zæňe Avatar" 
                 className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500"
               />
