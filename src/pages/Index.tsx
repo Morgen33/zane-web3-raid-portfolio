@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { MessageCircle, Twitter, Users, Zap, TrendingUp, Shield, Headphones, Star } from "lucide-react";
+import { MessageCircle, Twitter, Users, Zap, TrendingUp, Shield, Headphones, Star, MessageSquare } from "lucide-react";
 
 const Index = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -48,6 +48,13 @@ const Index = () => {
       role: "Senior Moderator",
       achievement: "Moderated community channels, resolving conflicts and enforcing guidelines to maintain a respectful atmosphere, reducing reported incidents",
       icon: <Shield className="w-5 h-5" />
+    },
+    {
+      company: "$BOINK",
+      token: "$BOINK",
+      role: "Social Media & Community Coordinator",
+      achievement: "As a Social Media & Community Coordinator, I supported Boinks Web3 project's grassroots growth by managing Telegram-based community engagement, creating meme content for viral marketing, coordinating raid and shill activities, and helping establish connections with other blockchain communities. My work contributed to user acquisition, brand awareness, and ecosystem expansion.",
+      icon: <MessageSquare className="w-5 h-5" />
     }
   ];
 
