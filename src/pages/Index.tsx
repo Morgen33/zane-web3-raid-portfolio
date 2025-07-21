@@ -15,6 +15,13 @@ const Index = () => {
 
   const experiences = [
     {
+      company: "$BOINK",
+      token: "$BOINK",
+      role: "Social Media & Community Coordinator",
+      achievement: "As a Social Media & Community Coordinator, I supported Boinks Web3 project's grassroots growth by managing Telegram-based community engagement, creating meme content for viral marketing, coordinating raid and shill activities, and helping establish connections with other blockchain communities. My work contributed to user acquisition, brand awareness, and ecosystem expansion.",
+      icon: <MessageSquare className="w-5 h-5" />
+    },
+    {
       company: "@doms4ever",
       token: "$DOMS",
       role: "Content Creator & Community Manager",
@@ -48,13 +55,6 @@ const Index = () => {
       role: "Senior Moderator",
       achievement: "Moderated community channels, resolving conflicts and enforcing guidelines to maintain a respectful atmosphere, reducing reported incidents",
       icon: <Shield className="w-5 h-5" />
-    },
-    {
-      company: "$BOINK",
-      token: "$BOINK",
-      role: "Social Media & Community Coordinator",
-      achievement: "As a Social Media & Community Coordinator, I supported Boinks Web3 project's grassroots growth by managing Telegram-based community engagement, creating meme content for viral marketing, coordinating raid and shill activities, and helping establish connections with other blockchain communities. My work contributed to user acquisition, brand awareness, and ecosystem expansion.",
-      icon: <MessageSquare className="w-5 h-5" />
     }
   ];
 
