@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MessageCircle, Twitter, Users, Zap, TrendingUp, Shield, Headphones, Star, MessageSquare } from "lucide-react";
+import RainingLetters from "@/components/ui/modern-animated-hero-section";
 
 const Index = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -82,68 +83,8 @@ const Index = () => {
       </div>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-gradient-primary opacity-60"
-          style={{ transform: `translateY(${scrollY * 0.5}px)` }}
-        />
-        <div className="absolute inset-0 bg-gradient-animated opacity-20 animate-gradient-shift bg-300%"></div>
-        
-        <div className="relative z-10 text-center max-w-5xl mx-auto animate-fade-in">
-          <div className="mb-12">
-            <div className="mt-16 mb-8 animate-slide-up">
-              <img 
-                src="/lovable-uploads/4957b470-a480-4c82-8f5d-d91d43ea321c.png" 
-                alt="Zæňe Avatar" 
-                className="w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500"
-              />
-            </div>
-            <h1 className="text-7xl md:text-9xl font-display font-black mb-6 bg-gradient-text bg-clip-text text-transparent animate-pulse-glow leading-tight">
-              Zæňe
-            </h1>
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              <Badge variant="secondary" className="text-xl px-6 py-3 bg-gradient-card backdrop-blur-md border-primary/20 hover:shadow-glow transition-all duration-300 animate-slide-up" style={{ animationDelay: '0.2s' }}>
-                <Zap className="w-5 h-5 mr-2 text-primary" />
-                DeFi Explorer
-              </Badge>
-              <Badge variant="secondary" className="text-xl px-6 py-3 bg-gradient-card backdrop-blur-md border-primary/20 hover:shadow-glow transition-all duration-300 animate-slide-up" style={{ animationDelay: '0.4s' }}>
-                Web3 Enthusiast
-              </Badge>
-              <Badge variant="secondary" className="text-xl px-6 py-3 bg-gradient-card backdrop-blur-md border-primary/20 hover:shadow-glow transition-all duration-300 animate-slide-up" style={{ animationDelay: '0.6s' }}>
-                3+ Years Experience
-              </Badge>
-            </div>
-          </div>
-          
-          <p className="text-2xl md:text-3xl text-muted-foreground mb-10 leading-relaxed font-light animate-slide-up" style={{ animationDelay: '0.8s' }}>
-            <span className="text-primary font-medium">Community Moderator</span> • <span className="text-accent font-medium">X Raider</span> • <span className="text-primary font-medium">Web3 Discord Expert</span>
-            <br />
-            Skilled in engagement & tools like <span className="text-accent font-semibold">MEE6</span>
-            <br />
-            <span className="text-primary font-medium">NFTs</span> ➠ <span className="text-accent font-medium">Community Growth Strategies Expert</span> • <span className="text-primary font-medium">Shills Spaces 🎙️ Host</span>
-          </p>
-
-          <div className="space-y-6 animate-slide-up" style={{ animationDelay: '1s' }}>
-            <p className="text-3xl md:text-4xl font-display font-bold text-transparent bg-gradient-text bg-clip-text mb-10">
-              Welcome to My Raid/Mod Job Portfolio
-            </p>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed font-light">
-              I'm thrilled you're checking out my work as a <span className="text-primary font-semibold">Raid/Mod professional</span>. This portfolio showcases my experience in creating <span className="text-accent font-semibold">engaging, inclusive, and well-moderated</span> online communities. From managing <span className="text-primary font-semibold">high-energy raids</span> to ensuring <span className="text-accent font-semibold">safe and fun environments</span>, I bring passion and precision to every project.
-            </p>
-          </div>
-
-          <Button 
-            size="lg" 
-            className="mt-12 mb-20 bg-gradient-accent hover:shadow-intense transition-all duration-500 text-xl px-12 py-6 font-display font-semibold animate-slide-up transform hover:scale-105"
-            style={{ animationDelay: '1.2s' }}
-            onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
-          >
-            <span className="flex items-center gap-3">
-              Explore My Work
-              <Zap className="w-5 h-5" />
-            </span>
-          </Button>
-        </div>
+      <section className="relative min-h-screen">
+        <RainingLetters />
       </section>
 
       {/* Experience Section */}
