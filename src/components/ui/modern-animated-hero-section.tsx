@@ -201,7 +201,7 @@ const RainingLetters: React.FC = () => {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center">
         <div className="mb-8">
           <img 
-            src="/lovable-uploads/4957b470-a480-4c82-8f5d-d91d43ea321c.png" 
+            src="/lovable-uploads/3cee2609-ce7a-4a72-82a6-9748feec4e1d.png" 
             alt="Zæňe Avatar" 
             className="w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500 mb-8"
           />
