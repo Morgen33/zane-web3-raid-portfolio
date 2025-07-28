@@ -198,7 +198,14 @@ const RainingLetters: React.FC = () => {
   return (
     <div className="relative w-full h-screen bg-black overflow-hidden">
       {/* Title */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-center">
+        <div className="mb-8">
+          <img 
+            src="/lovable-uploads/4957b470-a480-4c82-8f5d-d91d43ea321c.png" 
+            alt="Zæňe Avatar" 
+            className="w-48 h-48 md:w-64 md:h-64 mx-auto rounded-full shadow-glow border-2 border-primary/30 hover:scale-110 transition-all duration-500 mb-8"
+          />
+        </div>
         <ScrambledTitle />
       </div>
 
