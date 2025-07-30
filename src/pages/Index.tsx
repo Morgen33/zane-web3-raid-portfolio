@@ -209,7 +209,7 @@ const Index = () => {
                     <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </div>
                   <h3 className="text-2xl font-display font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">X (Twitter)</h3>
-                  <p className="text-accent hover:text-primary transition-colors text-lg font-medium">@ZibsMetax</p>
+                  <p className="text-accent hover:text-primary transition-colors text-lg font-medium">@Zanefren</p>
                 </CardContent>
               </Card>
             </a>
