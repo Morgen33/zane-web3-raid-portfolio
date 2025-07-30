@@ -197,7 +197,7 @@ const Index = () => {
             </a>
 
             <a 
-              href="https://x.com/ZibsMetax" 
+              href="https://x.com/Zanefren" 
               target="_blank" 
               rel="noopener noreferrer"
               className="block"
